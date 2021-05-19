@@ -64,13 +64,13 @@
 }
 .motivacional{
     background-color: #98d384;
-    margin-top:30px;
+    margin-top:2px;
 }
 .motivacional div h5{
     padding:20px;
 }
 .imagemMotivacional div div img{
-    width: 200px;
+    width: 150px;
     height: 150px;
     margin-top: 35px;
     margin-left:25px;
@@ -110,7 +110,7 @@
     margin-top:20px;
 }
 .icons{
-    margin-top:-50px;
+    margin-top:25px;
 }
 .footer{
     background-color: #4FBF2A;
@@ -121,10 +121,198 @@
     text-align: center;
     margin-top:20px;
 }
-
-
-
-
+.sobre{
+    margin-top:40px;
+}
+.sobre div div{
+    background-color: #aadfbe;
+}
+.redes{
+    margin-left:130px;
+}
+.sobre div div div div h1{
+    text-align: center;
+    padding:10px;
+}
+.sobre div div div div h5{
+    text-align: center;
+    padding:10px;
+}
+@media screen and (max-width:412px) {
+    .search {
+        display: none;
+    }
+    .pets div:nth-last-child(-n+2) {
+        display: none;
+      }
+      .abrigo{
+          margin-bottom: 10px;
+      }
+      .parceiros div{
+          margin-bottom: 10px;
+      }
+      .imagemMotivacional div div img{
+        width: 100px;
+        height: 100px;
+        margin-top: -20px;
+      }
+      .motivacional{
+        background-color: #98d384;
+        margin-top:5px;
+        height: 770px;
+    }
+    .parceiros{
+        margin-top: 5px;
+    }
+    .parceiros div{
+        background-color: #3a967a;
+        padding:30px;
+        display:inline-flexbox;
+    }
+    .abrigos{
+        margin-top:5px;
+    }
+    .footer{
+        background-color: #4FBF2A;
+        margin-top:35px;
+        height: 50px;
+    }
+    .footer div h3{
+        text-align: center;
+        font-size: small;
+    }
+    .pets div img{
+        width: 120px;
+        height: 120px;
+    }
+    .pets div img{
+        margin-left: 50px;
+    }
+    .pets div h5{
+        margin-left: 50px;
+        margin-top:5px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .search {
+        display: none;
+    }
+    .parceiros div{
+        margin-bottom: 15px;
+    }
+    .infoImagem div img{
+        width: 900px;
+        height: 600px;
+    }
+    .infoImagem{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .infoImagem div img{
+        margin-left: -65px;
+    }
+    .pets div:nth-last-child(-n+1) {
+        display: none;
+      }
+    .abrigo{
+          margin-bottom: 10px;
+      }
+    .button nav a:last-child{
+        display: none;
+    }
+}
+@media screen and (min-width:413px) and (max-width:768px){
+    .search {
+        display: none;
+    }
+    .parceiros div{
+        margin-bottom: 15px;
+    }
+    .infoImagem div img{
+        width: 900px;
+        height: 600px;
+    }
+    .infoImagem{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .pets div:nth-last-child(-n+1) {
+        display: none;
+      }
+    .abrigo{
+          margin-bottom: 10px;
+      }
+    .button nav a:last-child{
+        display: none;
+    }
+    .redes{
+        margin-left:0px;
+    }
+    .redes{
+        margin-left:120px;
+    }
+}
+/* FIM INDEX.HTML*/
+/* DOACAO.HTML */
+.pMensagem div h1{
+    text-align: center;
+    color:#180605;
+}
+.pMensagem{
+    margin-top:10px;
+}
+.doacaoAbrigo{
+    margin-top:10px;
+}
+.msg div h4{
+    text-align: center;
+}
+.doacaoAbrigo div div div div img{
+    width: 400px;
+    height: 600px;
+}
+.doacaoAbrigos{
+    margin-top:20px;
+    background-color: #93daca;
+    padding: 50px;
+}
+.doacaoInfo{
+    margin-top:15px;
+}
+.btnCadastre{
+    margin-top:35px;
+}
+/* FIM DOAÇÃO */
+/* INFORMAÇÕES */
+.infoImagem div img{
+    width: 900px;
+    height: 600px;
+}
+.infoImagem{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.infoMsg div h2{
+    text-align: center;
+    padding:30px;
+    background-color: #b7faea;
+}
+.infoMsg{
+    margin-top: 25px;
+}
+.infoInformacao{
+    text-align: center;
+    background-color: #cff6fd;
+    padding:25px;
+    width: 80%;
+    margin-left: 80px;
+}
+.infoFoto div img{
+    width: 40%;
+}
+.infoLinha {
+    margin-top:20px;
+}
 
 /* ICONES */
 ul.social-network {
