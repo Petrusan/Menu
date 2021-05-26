@@ -8,6 +8,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/1ca3098de7.js" crossorigin="anonymous"></script>
   <title>AdotePet</title>
 </head>
 
@@ -18,6 +19,11 @@
         <img src="imgs/logo.png">
       </div>
       <div class="col-11 col-xl-7 button">
+        <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">
+              <i class="fa fa-bars"></i>
+              <i class="fa fa-times-circle"></i>
+            </label>
         <nav class="nav nav-pills flex-column flex-sm-row">
           <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home</a>
           <a class="flex-sm-fill text-sm-center nav-link" href="#">Adote</a>
@@ -214,22 +220,22 @@
       <!-- FIM MENSAGEM -->
       <!-- PARCEIROS -->
       <div class="row parceiros">
-        <div class="col-4 col-xl-2">
+        <div class="col-9 col-xl-2">
           <h5>
             Parceiro 1
           </h5>
         </div>
-        <div class="col-4 col-xl-2">
+        <div class="col-9 col-xl-2">
           <h5>
             Parceiro 2
           </h5>
         </div>
-        <div class="col-4 col-xl-2">
+        <div class="col-9 col-xl-2">
           <h5>
             Parceiro 3
           </h5>
         </div>
-        <div class="col-4 col-xl-2">
+        <div class="col-9 col-xl-2">
           <h5>
             Parceiro 4
           </h5>
@@ -240,7 +246,7 @@
     <!-- SOBRE NOS -->
     <div class="container sobre">
       <div class="row">
-        <div class="col-5 col-md-5">
+        <div class="col-12 col-md-5">
           <div class="row">
             <div class="col-12">
               <h1>
@@ -259,7 +265,7 @@
             </div>
           </div>
         </div>
-        <div class="col-5 col-md-5 redes">
+        <div class="col-12 col-md-5 redes">
           <div class="row">
             <div class="col-12">
               <h1>
@@ -275,19 +281,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-6 col-lg-2 logo">
+            <div class="col-6 col-lg-4 logo">
               <img src="imgs/logo.png">
             </div>
-            <div class="col-6 col-lg-10 icons">
-              <ul class="social-network social-circle">
-                <li><a href="#" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li><a href="#" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li><a href="#" target="_blank" class="icoInstagram" title="Instagram"><i
-                      class="fa fa-instagram"></i></a>
-                </li>
-              </ul>
+            <div class="col-6 col-lg-6 iconsBaixo">
+              <a href="#" class="btn social-icon button" data-abc="true"><i class="fa fa-facebook btn-round"></i></a> 
+              <a href="#" class="btn social-icon button" data-abc="true"><i class="fa fa-instagram btn-round"></i></a>
             </div>
           </div>
           <div class="row">

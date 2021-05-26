@@ -17,6 +17,12 @@
     margin-left:70px;
     width: 80%;
 }
+#menuToggle{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
 .search form{
     margin-top:20px;
 }
@@ -100,17 +106,10 @@
 .projeto div h5{
     padding:5px;
 }
-.iconesBaixo div img{
-    width: 50px;
-    height: 50px;
-    margin-left:-90px;
-    margin-top: 10px;
-}
-.iconesBaixo{
-    margin-top:20px;
-}
-.icons{
-    margin-top:25px;
+.iconsBaixo{
+    margin-left: 120px;
+    margin-top:-80px;
+    padding:30px;
 }
 .footer{
     background-color: #4FBF2A;
@@ -185,15 +184,59 @@
         width: 120px;
         height: 120px;
     }
-    .pets div img{
-        margin-left: 50px;
+    .parceiros div:nth-last-child(-n+2){
+        display: none;
+    }
+    .parceiros div{
+        height: 110px;
+    }
+    .parceiros div h5{
+        text-align: center;
+    }
+    .button nav{
+        display: none;
+    }
+    .infoImagem div img{
+        max-height: 40%;
+        max-width: 135%;
+        margin-left: -85px;
+        margin-top: 0px;
+    }
+    .infoMsg div{
+        margin-top: -380px;
+    }
+    .infoImagem{
+        margin-top: 0px;
+    }
+    .infoMsg div h2{
+        padding:30px;
+    }
+    
+    .infoInformacao{
+        margin-left:0px !important;
+        width: 100% !important;
+    }
+    .infoLinha {
+        margin-top:0px;
+    }
+    #ultimoAbrigo{
+        display: none;
     }
     .pets div h5{
-        margin-left: 50px;
-        margin-top:5px;
+        width: 100px;
+    }
+    .redes{
+        margin-left:0px;
+        margin-top: 5px;
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px){
+    #menuToggle{
+        display: none;
+    }
+    .menu-icon{
+        display: none;
+    }
     .search {
         display: none;
     }
@@ -201,15 +244,15 @@
         margin-bottom: 15px;
     }
     .infoImagem div img{
-        width: 900px;
-        height: 600px;
+        width: 100% !important;
+        height: 100% !important;
     }
     .infoImagem{
         margin-top: 0px;
         margin-left: 0px;
     }
     .infoImagem div img{
-        margin-left: -65px;
+        margin-left: -35px;
     }
     .pets div:nth-last-child(-n+1) {
         display: none;
@@ -222,6 +265,12 @@
     }
 }
 @media screen and (min-width:413px) and (max-width:768px){
+    #menuToggle{
+        display: none;
+    }
+    .menu-icon{
+        display: none;
+    }
     .search {
         display: none;
     }
@@ -244,9 +293,6 @@
       }
     .button nav a:last-child{
         display: none;
-    }
-    .redes{
-        margin-left:0px;
     }
     .redes{
         margin-left:120px;
@@ -313,73 +359,3 @@
 .infoLinha {
     margin-top:20px;
 }
-
-/* ICONES */
-ul.social-network {
-	list-style: none;
-	display: inline;
-	margin-left:0 !important;
-	padding: 0;
-}
-ul.social-network li {
-	display: inline;
-	margin: 0 5px;
-}
-
-.social-network a.icoInstagram:hover {
-	background-color: #f31010;
-}
-.social-network a.icoFacebook:hover {
-	background-color:#3B5998;
-}
-.social-network a.icoTwitter:hover {
-	background-color:#33ccff;
-}
-
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff;
-}
-a.socialIcon:hover, .socialHoverClass {
-	color:#44BCDD;
-}
-
-.social-circle li a {
-	display:inline-block;
-	position:relative;
-	margin:0 auto 0 auto;
-	-moz-border-radius:50%;
-	-webkit-border-radius:50%;
-	border-radius:50%;
-	text-align:center;
-	width: 50px;
-	height: 50px;
-	font-size:20px;
-	background-color: #D3D3D3;
-}
-.social-circle li i {
-	margin:0;
-	line-height:50px;
-	text-align: center;
-}
-
-.social-circle li a:hover i, .triggeredHover {
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-ms--transform: rotate(360deg);
-	transform: rotate(360deg);
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	transition: all 0.2s;
-}
-.social-circle i {
-	color: #fff;
-	-webkit-transition: all 0.8s;
-	-moz-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	-ms-transition: all 0.8s;
-	transition: all 0.8s;
-}
-/* FIM ICONE*/
